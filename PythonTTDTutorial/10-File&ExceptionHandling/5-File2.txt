@@ -1,0 +1,3 @@
+This content has been created using 'a' mode 
+'a' mode creates a file, if the file doesn't exist 
+Good Bye!

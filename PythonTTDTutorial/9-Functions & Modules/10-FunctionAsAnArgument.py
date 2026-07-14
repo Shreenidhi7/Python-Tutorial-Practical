@@ -1,0 +1,26 @@
+# In Python, we can pass a function as argument of another function.
+
+# def add_1(number):
+#     return number + 1
+#
+# def square(number):
+#     return number * number
+#
+# num = int(input("Enter a number: "))
+# result_1 = add_1(num)
+# result_2 = square(result_1)
+# print("add function output",result_1)
+# print("square function output",result_2)
+
+#### instead of doing the above thing [having 2 different result variables] ####
+
+def add1(number):
+    return number + 1
+
+def square(number):
+    return number * number
+
+num = int(input("Enter a number: "))
+result = square(add1(num))
+print("square function output ",result)
+# this approach 1st call the add function and then call the sqaure function

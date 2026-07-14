@@ -1,0 +1,2 @@
+This file is overwritten using 'w' mode in Python - New Content
+Have a nice day!, New Content

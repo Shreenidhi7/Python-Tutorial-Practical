@@ -1,0 +1,3 @@
+This file is created using the 'x' mode in Python 
+ Second line
+Third line
